@@ -1,7 +1,7 @@
 # -*- coding:utf-8 -*-  
 def align(text, space, align='left'):
 	try:
-		length = len(text.encode('gb2312'))						# python 3.x
+		length = len(text.encode('gb2312'))				# python 3.x
 	except UnicodeDecodeError:
 		try:
 			text = text.decode('utf-8').encode('gb2312')		# Python 2.x
@@ -11,9 +11,9 @@ def align(text, space, align='left'):
 	
 	space = space - length if space >= length else 0
 	
-	if align == 'right':
+	if align == 'right' or align == 'r':
 		text = ' ' * space + text
-	elif align == 'center':
+	elif align == 'center' or align == 'c':
 		text = ' ' * (space//2) + text + ' ' * (space-space//2)
 	else:
 		text = text + ' ' * space
