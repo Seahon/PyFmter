@@ -1,6 +1,6 @@
 # PyFmter
 
-This package contains different  functions for beautifying Python string formatting.
+This package contains different functions for beautifying Python string formatting.
 
 NOTE: All the functions suit for both Python 2.x and 3.x.
 
