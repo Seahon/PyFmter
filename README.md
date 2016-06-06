@@ -4,12 +4,12 @@ This package contains different functions for beautifying Python string formatti
 
 NOTE: All the functions suit for both Python 2.x and 3.x.
 
-# Function List
+## Function List
 
 1. **align(text, space, alignment)**
 Align texts contain Chinese or English characters  `left`, `right` or `center`.
 
-# Example
+## Example
 
 1. align(text, space, alignment)
 ```
